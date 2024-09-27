@@ -1,0 +1,60 @@
+.main-box{
+    width: 800px;
+    height: 800px;
+    background-color: brown;
+    position: absolute;
+    border-radius: 40%;
+    z-index: 1;
+}
+
+.menu-box{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border-radius: 30%;
+    z-index: 2;
+
+}
+
+.list-box{
+    width: 400px;
+    height: 400px;
+    background-color: chocolate;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border-radius: 25%;
+    z-index: 3;
+}
+.recipe{
+    width: 200px;
+    height: 200px;
+    background-color: darkturquoise;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border-radius: 20%; 
+    z-index: -1;   
+}
+
+div > div > div> .recipe{
+    color: lightgreen;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div > div> div> div> ul >li{
+    color: lightsalmon;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
